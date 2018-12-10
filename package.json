@@ -6,7 +6,6 @@
     "version": "3.8.0"
   },
   "scripts": {
-    "precommit": "jira-commit-guard && lint-staged",
     "cz": "jira-commit -a"
   },
   "dependencies": {
@@ -34,7 +33,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "npm run precommit"
+      "pre-commit": "jira-commit-guard && lint-staged"
     }
   }
 }
