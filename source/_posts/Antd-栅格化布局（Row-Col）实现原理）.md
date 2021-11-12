@@ -16,6 +16,7 @@ tags:
   flex-flow: row wrap;
   row-gap: 12px; /** gutter[1]的值 */
   margin-left: -6px; /** (-gutter[0]/2)的值 */
+  margin-right: -6px; /** (-gutter[0]/2)的值 */
 }
 
 .col {
